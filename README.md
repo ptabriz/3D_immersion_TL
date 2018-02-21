@@ -10,9 +10,9 @@ We have paired GRASS GIS with Blender to allow real-time 3D rendering and immers
 <span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_water.gif" width=500>
 
 ## Modeling particles such as plants
-<span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_trees.gif" width=500>
+<span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_plants.gif" width=500>
   
-## Modeling linear features such as a trail
+## Modeling linear features such as trails
 <span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_trail.gif" width=500>
 
 ## Controling scene cameras using geospatial data
