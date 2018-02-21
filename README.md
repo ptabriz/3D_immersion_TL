@@ -16,8 +16,8 @@ We have paired GRASS GIS with Blender to allow real-time 3D rendering and immers
 <span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_trail.gif" width=500>
 
 ## Controling scene cameras using geospatial data
-<span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/camera1.gif" width=500>
-  <span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/camera2.gif" width=500>
+<span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_camera1.gif" width=500>
+  <span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_camera2.gif" width=500>
 
 ## Immersion
 <span style="display:block;text-align:center"><img src="https://raw.githubusercontent.com/wiki/ptabriz/3D_immersion_TL/images/anim_oculus.gif" width=500>
