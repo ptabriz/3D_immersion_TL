@@ -1,5 +1,5 @@
 
-[Wiki](https://github.com/ptabriz/Realtime_3Drendering_immersion_with_Tangibles/wiki) is available for installation and usage.
+Documentation regardign installation and usage is avialable in [Wiki](https://github.com/ptabriz/Realtime_3Drendering_immersion_with_Tangibles/wiki)  
 
 # Real-time 3D modeling and immersion with Tangible Landscape
 
