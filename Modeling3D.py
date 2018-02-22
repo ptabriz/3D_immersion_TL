@@ -390,6 +390,10 @@ def particle(obj, specieType, count, specieSize=.6, rotation=.02,
     """ Get object, specie type, specie count, and specie size
     and apply particle system """
     selectOnly(obj)
+<<<<<<< HEAD
+=======
+    # remove all previously assigned particles systems #
+>>>>>>> 3bfcd10fed99120242b8e1fbd8445c6b0d069e80
     Obj = bpy.data.objects[obj]
     bpy.context.scene.objects.active = Obj
     # Create an new particle system #
