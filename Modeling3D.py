@@ -397,7 +397,7 @@ def particle(obj, setting = None, specieType = None, count = None, specieSize=.6
     psys1 = Obj.particle_systems[-1]
     psys1.name = particle_name
 
-    if settings:
+    if setting:
         psys.settings = setting
 
     else:
@@ -648,8 +648,8 @@ class Adapt:
         if particle_settings:
             print (particle_settings)
             particle_clone(particle_settings, bpy.data.objects[self.plane])
-
-        makeScratchfile(Path, "raster")
+        os.remove(Path)
+        # makeScratchfile(Path, "raster")
 
         return "finished"
     #except:
@@ -680,7 +680,8 @@ class Adapt:
             changeMat(self.water, mat)
 
             if (int(getTime("sec"))) % 2 == 0:
-                makeScratchfile(waterPath, "raster")
+                #makeScratchfile(waterPath, "raster")
+                os.remove(waterPath)
 
             return "imported"
         except:
@@ -708,7 +709,11 @@ class Adapt:
                             me.vertices[-1].co.y,
                             me.vertices[0].co.z+16]
             toggleCam(self.vantageCam, adaptGrass=False)
-            makeScratchfile(vantagePath, "vector")
+            #makeScratchfile(vantagePath, "vector")
+            os.remove(vantagePath)
+            os.remove(vantagePath[:-4] + ".prj")
+            os.remove(vantagePath[:-4] + ".shx")
+            os.remove(vantagePath[:-4] + ".dbf")
 
         except:
             print ("vantage not imported")
@@ -747,7 +752,12 @@ class Adapt:
                 mat = self.engine[0] + ".boardwalk"
                 changeMat(self.trail, mat)
                 smooth(self.trail, .18,2)
-                makeScratchfile(trailPath, "vector")
+                os.remove(trailPath)
+                os.remove(trailPath[:-4] + ".prj")
+                os.remove(trailPath[:-4] + ".shx")
+                os.remove(trailPath[:-4] + ".dbf")
+
+                #makeScratchfile(trailPath, "vector")
 
                 return "imported"
         except:
