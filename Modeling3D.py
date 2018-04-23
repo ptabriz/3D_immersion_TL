@@ -880,7 +880,7 @@ class ModalTimerOperator(bpy.types.Operator):
                                 for i in self.terrain.modifiers:
                                     if "Particle" in i.name:
                                         self.terrain.modifiers.remove(i)
-                        os.remove(self.emptyPath)
+                        os.remove(self.prefs.emptyPath)
                         #makeScratchfile(self.prefs.emptyPath, "text")
 
                     if vantageFile in fileList:
